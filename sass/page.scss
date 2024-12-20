@@ -1,0 +1,19 @@
+.search{
+    max-width: 20cm;
+    font-size: 30px;
+    margin-left: 100px;
+    font-style: oblique;
+    border: 2px solid black;
+    color: $segondary-color;
+    border-radius: 10px;
+    padding-inline: 20px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+::selection{
+    background-color: rgb(162, 85, 85);
+    color: aqua;
+}
+.accueil{
+    margin-top: 5cm;
+}

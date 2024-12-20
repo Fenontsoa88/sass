@@ -1,0 +1,47 @@
+
+.element{
+    width: 220px; 
+    height: 200px;
+    &-nom{
+        padding-top: 20px;
+        margin-bottom: -30px;
+        display: inline;
+        font-style: oblique;
+        color: $primary-color;
+     }
+     &--accueil{
+        
+            margin-bottom: $espace;
+            padding-top: $centre;
+     }
+     &--àpropos{
+        margin-bottom: $espace;
+        padding-top: $centre;
+     }
+     &--education{
+        margin-bottom: $espace;
+        padding-top: $centre;
+     }
+     &--contact{
+        margin-bottom: $espace;
+        padding-top: $centre;
+     }
+
+
+}
+li{
+    padding-bottom:  40px;
+    text-align: center;
+    max-width: 10cm;
+    background-color: rgb(136, 134, 133);
+    font-size: 35px;
+    border-radius: 20px;
+    max-height: 60px;
+    
+}
+a{
+    @include lien
+}
+.à-propos{
+    margin-bottom: -36cm;
+}
